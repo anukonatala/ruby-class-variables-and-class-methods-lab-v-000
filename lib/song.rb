@@ -38,6 +38,7 @@ class Song
         @@generCount[genre] = 1
       end
     end
+    @@generCount
   end
 
 end
