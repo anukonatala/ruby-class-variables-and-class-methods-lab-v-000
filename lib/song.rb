@@ -42,7 +42,7 @@ class Song
     @@generCount
   end
   
-  def self.artists_count
+  def self.artist_count
     @@artists.each do |artist| 
       if(@@artistCount.has_key?(artist))
         @@artistCount[artist] += 1
